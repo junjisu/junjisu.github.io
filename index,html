@@ -2,10 +2,139 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <style>
+            table, tr, th, td {
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        </style>
     </head>
     <body>
         <h3>
             20213101 전지수 홈페이지입니다.
         </h3>
+        <h3><a href="https://sso.hoseo.edu/svc/tk/Auth.do?id=NEW_PORTAL&ac=Y&RelayState=%2Findex.jsp&ifa=N&" target="_blank">디지털기술경영 20213101 전지수 3학년 1학기 시간표</a></h3>
+        <table>
+            <tr>
+                <th><a href="https://sso.hoseo.edu/svc/tk/Auth.do?id=NEW_PORTAL&ac=Y&RelayState=%2Findex.jsp&ifa=N&"><img src="호서대학교.png" width="50"></a></th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </tr>
+            <tr>
+                <th>0교시 <br> 08:30 ~ 09:20</th>
+                <th>채플-23 <br> (온라인)</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>1교시 <br> 09:30 ~ 10:20</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>2교시 <br> 10:30 ~ 11:20</th>
+                <th rowspan="2">경영통계-02 <br> (1호관209)</th>
+                <th>경영통계-02 <br> (1호관209)</th>
+                <th></th>
+                <th>디지털콘텐츠비즈니스개론(창업)-01 <br> (벤처교육관302)</th>
+                <th rowspan="2">웹프로그래밍-01 <br> (1호관210)</th>
+            <tr>
+                <th>3교시 <br> 11:30 ~ 12:20</th>
+                
+                <th rowspan="2">디지털콘텐츠비즈니스개론(창업)-01 <br> (벤처교육관302)</th>
+                <th></th>
+                <th></th>
+                
+            </tr>
+            <tr>
+                <th>4교시 <br> 12:30 ~ 13:20</th>
+                <th></th>
+                
+                <th rowspan="2">디지털기술의이해-01 <br> (벤처교육관302)</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>5교시 <br> 13:30 ~ 14:20</th>
+                <th></th>
+                <th></th>
+                
+                <th>마케팅의이해-01 <br> (1호관202)</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>6교시 <br> 14:30 ~ 15:20</th>
+                <th rowspan="2">마케팅의이해-01 <br> (1호관202)</th>
+                <th>디지털기술의이해-01 <br> (온라인)</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>7교시 <br> 15:30 ~ 16:20</th>
+                
+                <th></th>
+                <th></th>
+                <th rowspan="2">사진과시네마토그래피(3)-07 <br> (벤처교육관308)</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>8교시 <br> 16:30 ~ 17:20</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                
+                <th></th>
+            </tr>
+            <tr>
+                <th>9교시 <br> 17:30 ~ 18:20</th>
+                <th></th>
+                <th>사회봉사의이해-07 <br> (온라인)</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>10교시 <br> 18:20 ~ 19:05</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>11교시 <br> 19:10 ~ 19:55</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>12교시 <br> 20:00 ~ 20:45</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>학기종료일</td>
+                <td colspan="5">06월 14일(수)</td>
+                
+                
+                
+                
+            </tr>
+        </table>
     </body>
 </html>
