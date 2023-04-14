@@ -25,9 +25,9 @@ span {font-weight: bold;}
     <li><span>사회</span> : 20213101 전지수</li> 
     <li><span>문의사항</span> : </li>
     <br>
-    <form>
+    <form action="profile.html">
     <textarea rows="50" cols="100"></textarea>
-    <button type="button">문의사항제출/button>
+    <input type="submit" value="문의사항제출">
     </form>
 </ul>
 </body>
