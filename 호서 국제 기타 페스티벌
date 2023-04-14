@@ -27,6 +27,7 @@ span {font-weight: bold;}
     <br>
     <form>
     <textarea rows="50" cols="100"></textarea>
+    <button type="button">문의사항제출/button>
     </form>
 </ul>
 </body>
