@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <title>jjs 홈페이지</title>
         <script>
-            function subgreen() {
-                e = document.getElementsByClass('color')
-                e.style.color = 'green';
-            }
-            function subblack() {
-                e = document.getElementsByClass('color')
-                e.style.color = 'black';
-            }
+           function subgreen() {
+            e = document.getElementById('color')
+            e.style.color = 'green';
+        }
+        function suborange() {
+            e = document.getElementById('color')
+            e.style.color = 'black';
+        }
         </script>
         <style>
         table, tr, th, td {
@@ -47,17 +47,17 @@
         </h3>
         <br>
         <button onclick="subgreen();" type="button">초록색!</button>
-    <button onclick="subblack();" type="button">검은색!</button>
+    <button onclick="subbalck();" type="button">검은색!</button>
         <br>
         <h3><a href="https://sso.hoseo.edu/svc/tk/Auth.do?id=NEW_PORTAL&ac=Y&RelayState=%2Findex.jsp&ifa=N&" target="_blank">디지털기술경영 20213101 전지수 3학년 1학기 시간표</a></h3>
         <table>
-            <tr>
+            <tr id="color">
                 <th><a href="https://sso.hoseo.edu/svc/tk/Auth.do?id=NEW_PORTAL&ac=Y&RelayState=%2Findex.jsp&ifa=N&"><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='100px'" src="호서대학교.png" width="50"></a></th>
-                <th class="color">월</th>
-                <th class="color">화</th>
-                <th class="color">수</th>
-                <th class="color">목</th>
-                <th class="color">금</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
             </tr>
             <tr>
                 <td>0교시 <br> 08:30 ~ 09:20</td>
