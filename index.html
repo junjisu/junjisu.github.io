@@ -3,6 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>jjs 홈페이지</title>
+        <script>
+            function subgreen() {
+                e = document.getElementById('color')
+                e.style.color = 'green';
+            }
+            function subblack() {
+                e = document.getElementById('color')
+                e.style.color = 'black';
+            }
+        </script>
         <style>
         table, tr, th, td {
         border: solid 1px black;
@@ -32,6 +42,8 @@
         </style>
     </head>
     <body>
+        <button onclick="subgreen();" type="button">초록색!</button>
+    <button onclick="subblack();" type="button">검은색!</button>
         <h3>
             <span>20213101 전지수</span> 홈페이지입니다.
         </h3>
@@ -40,11 +52,11 @@
         <table>
             <tr>
                 <th><a href="https://sso.hoseo.edu/svc/tk/Auth.do?id=NEW_PORTAL&ac=Y&RelayState=%2Findex.jsp&ifa=N&"><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='100px'" src="호서대학교.png" width="50"></a></th>
-                <th>월</th>
-                <th>화</th>
-                <th>수</th>
-                <th>목</th>
-                <th>금</th>
+                <th class="color">월</th>
+                <th class="color">화</th>
+                <th class="color">수</th>
+                <th class="color">목</th>
+                <th class="color">금</th>
             </tr>
             <tr>
                 <td>0교시 <br> 08:30 ~ 09:20</td>
