@@ -58,20 +58,12 @@ nav {
 	width: 1200px; height: 50px;
 	margin-top: 10px;
 }
-section {
-	width: 875px; height: 500px;
-	margin-top: 10px;
-	float: left;
-	margin-right: 29px;
-	margin-left: 29px;
-}
 .clear{
 	clear: both;
 }
 aside {
 	width: 290px; height: 240px;
 	margin-top: 10px;
-	float: left;
 }
 footer {
 	width: 1200px; height: 130px;
@@ -102,20 +94,13 @@ a:hover {text-decoration: none; color: darkgreen;
 #menu li {
 	list-style-type: none;
 	display: inline;
-	padding: 5px 6px 5px 6px;
+	padding: 8px 5px 5px 5px;
 }
 .menu {
-	margin: 10px;
+	margin: 5px;
 	font-weight: bold;
 	float: left;
 	list-style-type: none;
-}
-#weather {
-	margin-top: 15px;
-}
-#rain {
-	background-image: url(img/rain1.jpeg);
-	width: 290px; height: 240px;
 }
 #honey {
 	margin-top: 15px;
@@ -134,11 +119,32 @@ a:hover {text-decoration: none; color: darkgreen;
 	text-align: center;
 	
 }
+section {
+	width: 875px; height: 500px;
+	margin-top: 10px;
+	float: left;
+}
+#rain {
+	background-image: url(img/rain1.jpeg);
+	width: 290px; height: 240px;
+	float: left;
+}
+#weather {
+	margin-top: 15px;
+	display: flex;
+}
 #java2 {
 	background-image: url(img/jjang00.jpeg);
 width: 290px; height: 240px;
 }
-
+#box1 {
+	width: 1200px; height: 500px;
+	margin: 0 auto;
+}
+#box2 {
+	display: flex;
+	flex-direction: column;
+}
 </style>
 </head>
 <body>
@@ -167,8 +173,11 @@ width: 290px; height: 240px;
 		<li class="menu"><a class="link" href="calendar.html">월간 일정표</a></li>
 		<li class="menu">|</li>
 		<li class="menu"><a class="link" href="shopping.html">JJS 쇼핑몰</a></li>
+		<li class="menu">|</li>
+		<li class="menu"><a class="link" href="photo-academy.html">포토 아카데미</a></li>
 	</ul>
 </nav>
+<div id="box1">
 <section>
 	<table>
 		<tr id="color">
@@ -292,11 +301,13 @@ width: 290px; height: 240px;
 		</tr>
 	</table>
 </section>
+<div id="box2">
 <aside id="rain">
-	<div style="display: flex; justify-content: center;">
+	<div>
 		<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%98%A4%EB%8A%98+%EB%82%A0%EC%94%A8&oquery=%EB%82%A0%EC%94%A8&tqi=ibWN3lprvhGss5ibiTNssssstFR-188690"><img id="weather" src="img/rain.png" width="200px" height="200px"></a>
 	</div>
 </aside>
+
 <aside id="java2">
 	<div>
 		<h1 id="java">고민을 적어보세요</h1>
@@ -305,6 +316,8 @@ width: 290px; height: 240px;
 
 	</div>
 </aside>
+</div>
+</div>
 <div class='clear'></div>
 <footer>
 	<div id="address">
