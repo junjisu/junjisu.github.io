@@ -1,4 +1,4 @@
-Date,Location,일최저체감온도(°C),maximum temperature(°C),average temperature(°C),lowest temperature(°C),Average Relative Humidity(%),average wind speed(m/s),maximum wind speed(m/s),Cold wave warning(O/X)
+Date,Location,Minimum Feeling Temperature(°C),maximum temperature(°C),average temperature(°C),lowest temperature(°C),Average Relative Humidity(%),average wind speed(m/s),maximum wind speed(m/s),Cold wave warning(O/X)
 2023-01-01,104,-3.3,7.7,3,-2,29.6,2.1,6.3,X
 2023-01-01,106,-0.4,9.9,5.3,0.8,26.1,2.7,5.3,X
 2023-01-01,108,-8.1,3.8,-0.2,-4.3,54.5,2.7,5.3,X
