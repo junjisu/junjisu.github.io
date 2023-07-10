@@ -1,4 +1,4 @@
-Date,Location,DLT(°C),MDT(°C),ADT(°C),DMT(°C),DARH(%),ADWS(m/s),MDWS(m/s),CWW
+Date,Location,DLT,MDT,ADT,DMT,DARH,ADWS,MDWS,CWW
 2023-01-01,부산,-3.4,9.3,4,0.4,43.8,2.1,4.9,X
 2023-01-02,부산,-3.7,7.8,3.1,0.5,19.5,2.6,6.7,X
 2023-01-03,부산,-6.8,6.8,1.5,-1.7,28.3,2.9,6.1,X
